@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #282D35;;
+    margin: 0;
+}
+
+/* CSS FOR NAV */
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #21222A;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    color: #61DAFB;
+}
+
+.subhead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    margin-right: 30px;
+    color: #DEEBF8;
+    /* align-self: flex-end; */
+}
+
+.logo{
+    width: 30px;
+    margin-left: 30px;
+}
+
+/* CSS For Main */
+.main{
+    padding: 57px 27px;
+    padding-left: 100px;
+    color: white;
+    background-image: url(react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+/* .large-logo{
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+    height: 270px;
+} */
+
+.subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    margin-top: 150px;
+    color: #FFFFFF;
+
+}
+.list{
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    list-style: none;
+    color: #FFFFFF;
+}
+.list li{
+    margin-bottom: 20px;
+}  
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #61DAFB; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
