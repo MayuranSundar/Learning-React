@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    display: flex;
+    height: 60px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #161617;
+    color: white;
+}
+
+.logo{
+    max-width: 30px;
+}
+
+.location-img{
+    max-width: 125px;
+    border-radius: 10px;
+}
+.card-section{
+    display:flex;
+    gap: 10px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    /* justify-content: center; */
+
+}
+.location-section{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.location{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.url{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+    margin: 0;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+.location-pin{
+    max-width: 12px;
+}
